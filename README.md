@@ -61,6 +61,7 @@ site/
 │   └── Logo.png                # Logo da empresa
 ├── index.html                  # Página principal
 ├── style.css                   # Estilos CSS
+├── CNAME                       # Domínio customizado (xcoreng.com)
 ├── server.js                   # Servidor Node.js HTTPS
 ├── build.js                    # Script de build
 ├── generate-ssl.js             # Gerador de certificados (Node)
@@ -72,6 +73,7 @@ site/
     ├── index.html             # HTML otimizado
     ├── style.css              # CSS minificado
     ├── server.js              # Servidor
+    ├── CNAME                  # Domínio customizado
     ├── package.json           # Config simplificado
     └── build-info.json        # Metadados do build
 ```

@@ -10,6 +10,7 @@
 - ✅ Cópia de assets (imagens)
 - ✅ Geração de metadados
 - ✅ Package.json simplificado para produção
+- ✅ **CNAME copiado** - Para domínio customizado (xcoreng.com)
 - ✅ **Documentação (.copilot/) NÃO é copiada** - Fica apenas no repositório
 
 #### 2. Pasta de Distribuição (`dist/`)
@@ -19,8 +20,9 @@ dist/
 ├── img/Logo.png           # Logo (copiado)
 ├── index.html            # HTML otimizado (474 bytes)
 ├── style.css             # CSS minificado (734 bytes)
-├── server.js             # Servidor (1,482 bytes)
+├── server.js             # Servidor (4.041 bytes)
 ├── package.json          # Config produção
+├── CNAME                 # Domínio customizado
 └── build-info.json       # Metadados do build
 
 ❌ .copilot/ → NÃO copiada (permanece apenas no repositório)
