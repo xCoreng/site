@@ -70,6 +70,12 @@ if (fs.existsSync('./img')) {
 fs.copyFileSync('./server.js', path.join(distDir, 'server.js'));
 console.log(`${colors.green}✓${colors.reset} server.js copiado`);
 
+// Copiar CNAME (importante para domínio customizado)
+if (fs.existsSync('./CNAME')) {
+    fs.copyFileSync('./CNAME', path.join(distDir, 'CNAME'));
+    console.log(`${colors.green}✓${colors.reset} CNAME copiado`);
+}
+
 // Criar package.json simplificado para produção
 const prodPackage = {
     name: "xcoreng-site",
