@@ -5,6 +5,7 @@
 }
 
 body {
+    background-color: #000000;
     background-image: url('img/fundo.png');
     background-size: cover;
     background-position: center;
@@ -20,7 +21,18 @@ body {
 }
 
 .container {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+}
+
+.text-content {
+    text-align: left;
 }
 
 .title {
