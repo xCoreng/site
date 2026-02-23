@@ -16,11 +16,17 @@ Site institucional minimalista e profissional desenvolvido com Node.js puro.
 # Instalar (não há dependências, mas recomendado para npm scripts)
 npm install
 
+# Gerar certificados SSL (OBRIGATÓRIO - primeira vez)
+.\generate-ssl.ps1  # Windows
+# ou
+npm run generate-ssl
+
 # Iniciar servidor de desenvolvimento
 npm start
 
 # Acessar
-http://localhost:3000
+https://localhost:3443  # HTTPS (ÚNICO permitido)
+http://localhost:3000   # HTTP (redireciona para HTTPS)
 ```
 
 ### Build e Produção
@@ -31,6 +37,10 @@ npm run build
 # Executar versão de produção
 cd dist && node server.js
 ```
+
+### ⚠️ HTTPS Obrigatório
+**HTTP puro não é mais permitido.** O servidor requer certificados SSL para iniciar.
+- Ver [HTTPS-SETUP.md](HTTPS-SETUP.md) para detalhes completos
 
 ---
 
