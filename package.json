@@ -1,0 +1,16 @@
+{
+  "name": "xcoreng-site",
+  "version": "1.0.0",
+  "description": "xcoreng Official Site",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "xcoreng",
+    "website"
+  ],
+  "author": "",
+  "license": "MIT"
+}

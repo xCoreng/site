@@ -137,3 +137,19 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+*.db
+
+*.vsidx
+
+*.db-shm
+
+*.db-wal
+
+.vs/site.slnx/copilot-chat/f64fc83f/sessions/601200d2-4c52-4f8f-a40a-a5e00bfa0e4c
+
+*.testlog
+
+*.manifest
+
+*.sqlite
