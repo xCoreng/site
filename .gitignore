@@ -2,6 +2,14 @@
 .vs/
 .vscode/
 
+# SSL/TLS Certificates (não versionar certificados)
+.cert/
+ssl/
+*.key
+*.cert
+*.pem
+*.pfx
+
 # Copilot - NÃO ignorar a pasta .copilot (documentação deve ser versionada)
 # A pasta .copilot contém documentação importante para a IA
 
