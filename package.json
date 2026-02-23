@@ -5,12 +5,18 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "build": "node build.js",
+    "clean": "node -e \"require('fs').rmSync('dist', {recursive:true, force:true})\"",
+    "rebuild": "npm run clean && npm run build"
   },
   "keywords": [
     "xcoreng",
     "website"
   ],
-  "author": "",
-  "license": "MIT"
+  "author": "xCor.Eng",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^10.0.1"
+  }
 }
