@@ -48,6 +48,10 @@ cd dist && node server.js
 
 ```
 site/
+├── .cert/                       # Certificados SSL (não versionados)
+│   ├── server.pfx              # Certificado Windows
+│   ├── server.key              # Chave privada (OpenSSL)
+│   └── server.cert             # Certificado público (OpenSSL)
 ├── .copilot/                    # Documentação para IA
 │   ├── .copilot-instructions.md # Instruções principais
 │   ├── AI-STARTUP.md           # Startup da IA
@@ -57,8 +61,10 @@ site/
 │   └── Logo.png                # Logo da empresa
 ├── index.html                  # Página principal
 ├── style.css                   # Estilos CSS
-├── server.js                   # Servidor Node.js
+├── server.js                   # Servidor Node.js HTTPS
 ├── build.js                    # Script de build
+├── generate-ssl.js             # Gerador de certificados (Node)
+├── generate-ssl.ps1            # Gerador de certificados (PowerShell)
 ├── package.json                # Configurações npm
 ├── README.md                   # Este arquivo
 └── dist/                       # Build de produção (gerado)
