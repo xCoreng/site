@@ -1,3 +1,10 @@
+# Visual Studio
+.vs/
+.vscode/
+
+# Copilot - NÃO ignorar a pasta .copilot (documentação deve ser versionada)
+# A pasta .copilot contém documentação importante para a IA
+
 # Logs
 logs
 *.log
